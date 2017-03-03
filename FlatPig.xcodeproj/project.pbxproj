@@ -7,23 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		983219B81E68FC9F00138A48 /* BenchCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219B71E68FC9F00138A48 /* BenchCount.swift */; };
+		983219BA1E68FCB200138A48 /* JerkCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219B91E68FCB200138A48 /* JerkCount.swift */; };
+		983219BC1E68FCC700138A48 /* CJerkCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219BB1E68FCC700138A48 /* CJerkCount.swift */; };
+		983219BE1E68FCD600138A48 /* DeadliftCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219BD1E68FCD600138A48 /* DeadliftCount.swift */; };
+		983219C01E68FCF800138A48 /* SquatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219BF1E68FCF800138A48 /* SquatCount.swift */; };
+		983219C21E68FD0A00138A48 /* FrontSquatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219C11E68FD0A00138A48 /* FrontSquatCount.swift */; };
+		983219C41E68FD5400138A48 /* PowerCleanCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219C31E68FD5400138A48 /* PowerCleanCount.swift */; };
+		983219C61E68FD6D00138A48 /* PushPressCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219C51E68FD6D00138A48 /* PushPressCount.swift */; };
+		983219C81E68FD8200138A48 /* PushPressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219C71E68FD8200138A48 /* PushPressViewController.swift */; };
+		983219CA1E68FDB400138A48 /* JerkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219C91E68FDB400138A48 /* JerkViewController.swift */; };
+		983219CC1E68FDDF00138A48 /* CJerkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219CB1E68FDDF00138A48 /* CJerkViewController.swift */; };
+		983219CE1E68FDEE00138A48 /* DeadliftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219CD1E68FDEE00138A48 /* DeadliftViewController.swift */; };
+		983219D01E68FE0100138A48 /* FrontSquatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219CF1E68FE0100138A48 /* FrontSquatViewController.swift */; };
+		983219D21E68FE1200138A48 /* PowerCleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219D11E68FE1200138A48 /* PowerCleanViewController.swift */; };
 		9872CD951E626B4700C27FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CD941E626B4700C27FCB /* AppDelegate.swift */; };
 		9872CD971E626B4700C27FCB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CD961E626B4700C27FCB /* FirstViewController.swift */; };
-		9872CD991E626B4700C27FCB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CD981E626B4700C27FCB /* SecondViewController.swift */; };
+		9872CD991E626B4700C27FCB /* LifsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CD981E626B4700C27FCB /* LifsViewController.swift */; };
 		9872CD9C1E626B4700C27FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9872CD9A1E626B4700C27FCB /* Main.storyboard */; };
 		9872CD9E1E626B4700C27FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9872CD9D1E626B4700C27FCB /* Assets.xcassets */; };
 		9872CDA11E626B4700C27FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9872CD9F1E626B4700C27FCB /* LaunchScreen.storyboard */; };
+		9872CDA91E626BA900C27FCB /* SquatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CDA81E626BA900C27FCB /* SquatViewController.swift */; };
+		9872CDAB1E62737B00C27FCB /* BenchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CDAA1E62737B00C27FCB /* BenchViewController.swift */; };
+		9872CDAD1E627B1C00C27FCB /* VisitorCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CDAC1E627B1C00C27FCB /* VisitorCount.swift */; };
+		9872CDAF1E62839600C27FCB /* CleanAndJerksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CDAE1E62839600C27FCB /* CleanAndJerksViewController.swift */; };
+		9872CDB11E62844400C27FCB /* CleanAndJerkCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CDB01E62844400C27FCB /* CleanAndJerkCount.swift */; };
+		988D23821E67A6CC00C2702A /* white-icons-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D237A1E67A6CC00C2702A /* white-icons-07.png */; };
+		988D23831E67A6CC00C2702A /* white-icons-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D237B1E67A6CC00C2702A /* white-icons-08.png */; };
+		988D23841E67A6CC00C2702A /* white-icons-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D237C1E67A6CC00C2702A /* white-icons-09.png */; };
+		988D23851E67A6CC00C2702A /* white-icons-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D237D1E67A6CC00C2702A /* white-icons-10.png */; };
+		988D23861E67A6CC00C2702A /* white-icons-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D237E1E67A6CC00C2702A /* white-icons-11.png */; };
+		988D23871E67A6CC00C2702A /* white-icons-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D237F1E67A6CC00C2702A /* white-icons-12.png */; };
+		988D23881E67A6CC00C2702A /* white-icons-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23801E67A6CC00C2702A /* white-icons-13.png */; };
+		988D23891E67A6CC00C2702A /* white-icons-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23811E67A6CC00C2702A /* white-icons-14.png */; };
+		988D238B1E67AEC900C2702A /* test-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D238A1E67AEC900C2702A /* test-15.png */; };
+		988D23951E67B4A000C2702A /* FlatPig-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D238C1E67B4A000C2702A /* FlatPig-07.png */; };
+		988D23961E67B4A000C2702A /* FlatPig-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D238D1E67B4A000C2702A /* FlatPig-08.png */; };
+		988D23971E67B4A000C2702A /* FlatPig-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D238E1E67B4A000C2702A /* FlatPig-09.png */; };
+		988D23981E67B4A000C2702A /* FlatPig-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D238F1E67B4A000C2702A /* FlatPig-10.png */; };
+		988D23991E67B4A000C2702A /* FlatPig-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23901E67B4A000C2702A /* FlatPig-11.png */; };
+		988D239A1E67B4A000C2702A /* FlatPig-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23911E67B4A000C2702A /* FlatPig-12.png */; };
+		988D239B1E67B4A000C2702A /* FlatPig-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23921E67B4A000C2702A /* FlatPig-13.png */; };
+		988D239C1E67B4A000C2702A /* FlatPig-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23931E67B4A000C2702A /* FlatPig-14.png */; };
+		988D239D1E67B4A000C2702A /* FlatPig-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23941E67B4A000C2702A /* FlatPig-15.png */; };
+		988D23A71E67B5D500C2702A /* jam-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D239E1E67B5D500C2702A /* jam-07.png */; };
+		988D23A81E67B5D500C2702A /* jam-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D239F1E67B5D500C2702A /* jam-08.png */; };
+		988D23A91E67B5D500C2702A /* jam-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23A01E67B5D500C2702A /* jam-09.png */; };
+		988D23AA1E67B5D500C2702A /* jam-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23A11E67B5D500C2702A /* jam-10.png */; };
+		988D23AB1E67B5D500C2702A /* jam-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23A21E67B5D500C2702A /* jam-11.png */; };
+		988D23AC1E67B5D500C2702A /* jam-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23A31E67B5D500C2702A /* jam-12.png */; };
+		988D23AD1E67B5D500C2702A /* jam-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23A41E67B5D500C2702A /* jam-13.png */; };
+		988D23AE1E67B5D500C2702A /* jam-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23A51E67B5D500C2702A /* jam-14.png */; };
+		988D23AF1E67B5D500C2702A /* jam-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23A61E67B5D500C2702A /* jam-15.png */; };
+		988D23B11E67BEB500C2702A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D23B01E67BEB500C2702A /* AboutViewController.swift */; };
+		98CEBFD51E6660B500715505 /* FlatPig-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CEBFD41E6660B500715505 /* FlatPig-06.png */; };
+		B7652C507D84C30844649975 /* Pods_FlatPig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AFB29491A80084CFC06CE4 /* Pods_FlatPig.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A8231657B62EEACA9590D1C /* Pods-FlatPig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlatPig.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlatPig/Pods-FlatPig.release.xcconfig"; sourceTree = "<group>"; };
+		12AFB29491A80084CFC06CE4 /* Pods_FlatPig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlatPig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7235405B3584C05631D4CD27 /* Pods-FlatPig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlatPig.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlatPig/Pods-FlatPig.debug.xcconfig"; sourceTree = "<group>"; };
+		983219B71E68FC9F00138A48 /* BenchCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenchCount.swift; sourceTree = "<group>"; };
+		983219B91E68FCB200138A48 /* JerkCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JerkCount.swift; sourceTree = "<group>"; };
+		983219BB1E68FCC700138A48 /* CJerkCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJerkCount.swift; sourceTree = "<group>"; };
+		983219BD1E68FCD600138A48 /* DeadliftCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeadliftCount.swift; sourceTree = "<group>"; };
+		983219BF1E68FCF800138A48 /* SquatCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquatCount.swift; sourceTree = "<group>"; };
+		983219C11E68FD0A00138A48 /* FrontSquatCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontSquatCount.swift; sourceTree = "<group>"; };
+		983219C31E68FD5400138A48 /* PowerCleanCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerCleanCount.swift; sourceTree = "<group>"; };
+		983219C51E68FD6D00138A48 /* PushPressCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushPressCount.swift; sourceTree = "<group>"; };
+		983219C71E68FD8200138A48 /* PushPressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushPressViewController.swift; path = ../PushPressViewController.swift; sourceTree = "<group>"; };
+		983219C91E68FDB400138A48 /* JerkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JerkViewController.swift; path = ../JerkViewController.swift; sourceTree = "<group>"; };
+		983219CB1E68FDDF00138A48 /* CJerkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJerkViewController.swift; path = ../CJerkViewController.swift; sourceTree = "<group>"; };
+		983219CD1E68FDEE00138A48 /* DeadliftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeadliftViewController.swift; path = ../DeadliftViewController.swift; sourceTree = "<group>"; };
+		983219CF1E68FE0100138A48 /* FrontSquatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrontSquatViewController.swift; path = ../FrontSquatViewController.swift; sourceTree = "<group>"; };
+		983219D11E68FE1200138A48 /* PowerCleanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerCleanViewController.swift; path = ../PowerCleanViewController.swift; sourceTree = "<group>"; };
 		9872CD911E626B4700C27FCB /* FlatPig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatPig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9872CD941E626B4700C27FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9872CD961E626B4700C27FCB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9872CD981E626B4700C27FCB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9872CD981E626B4700C27FCB /* LifsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifsViewController.swift; sourceTree = "<group>"; };
 		9872CD9B1E626B4700C27FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9872CD9D1E626B4700C27FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9872CDA01E626B4700C27FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9872CDA21E626B4700C27FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9872CDA81E626BA900C27FCB /* SquatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquatViewController.swift; sourceTree = "<group>"; };
+		9872CDAA1E62737B00C27FCB /* BenchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenchViewController.swift; sourceTree = "<group>"; };
+		9872CDAC1E627B1C00C27FCB /* VisitorCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorCount.swift; sourceTree = "<group>"; };
+		9872CDAE1E62839600C27FCB /* CleanAndJerksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanAndJerksViewController.swift; sourceTree = "<group>"; };
+		9872CDB01E62844400C27FCB /* CleanAndJerkCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanAndJerkCount.swift; path = FlatPig/CleanAndJerkCount.swift; sourceTree = "<group>"; };
+		988D237A1E67A6CC00C2702A /* white-icons-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white-icons-07.png"; path = "../../Flat-pig-marketing/icons/white-icons-07.png"; sourceTree = "<group>"; };
+		988D237B1E67A6CC00C2702A /* white-icons-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white-icons-08.png"; path = "../../Flat-pig-marketing/icons/white-icons-08.png"; sourceTree = "<group>"; };
+		988D237C1E67A6CC00C2702A /* white-icons-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white-icons-09.png"; path = "../../Flat-pig-marketing/icons/white-icons-09.png"; sourceTree = "<group>"; };
+		988D237D1E67A6CC00C2702A /* white-icons-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white-icons-10.png"; path = "../../Flat-pig-marketing/icons/white-icons-10.png"; sourceTree = "<group>"; };
+		988D237E1E67A6CC00C2702A /* white-icons-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white-icons-11.png"; path = "../../Flat-pig-marketing/icons/white-icons-11.png"; sourceTree = "<group>"; };
+		988D237F1E67A6CC00C2702A /* white-icons-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white-icons-12.png"; path = "../../Flat-pig-marketing/icons/white-icons-12.png"; sourceTree = "<group>"; };
+		988D23801E67A6CC00C2702A /* white-icons-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white-icons-13.png"; path = "../../Flat-pig-marketing/icons/white-icons-13.png"; sourceTree = "<group>"; };
+		988D23811E67A6CC00C2702A /* white-icons-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white-icons-14.png"; path = "../../Flat-pig-marketing/icons/white-icons-14.png"; sourceTree = "<group>"; };
+		988D238A1E67AEC900C2702A /* test-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "test-15.png"; path = "../../Flat-pig-marketing/icons/test-15.png"; sourceTree = "<group>"; };
+		988D238C1E67B4A000C2702A /* FlatPig-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-07.png"; path = "../../Flat-pig-marketing/icons/FlatPig-07.png"; sourceTree = "<group>"; };
+		988D238D1E67B4A000C2702A /* FlatPig-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-08.png"; path = "../../Flat-pig-marketing/icons/FlatPig-08.png"; sourceTree = "<group>"; };
+		988D238E1E67B4A000C2702A /* FlatPig-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-09.png"; path = "../../Flat-pig-marketing/icons/FlatPig-09.png"; sourceTree = "<group>"; };
+		988D238F1E67B4A000C2702A /* FlatPig-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-10.png"; path = "../../Flat-pig-marketing/icons/FlatPig-10.png"; sourceTree = "<group>"; };
+		988D23901E67B4A000C2702A /* FlatPig-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-11.png"; path = "../../Flat-pig-marketing/icons/FlatPig-11.png"; sourceTree = "<group>"; };
+		988D23911E67B4A000C2702A /* FlatPig-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-12.png"; path = "../../Flat-pig-marketing/icons/FlatPig-12.png"; sourceTree = "<group>"; };
+		988D23921E67B4A000C2702A /* FlatPig-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-13.png"; path = "../../Flat-pig-marketing/icons/FlatPig-13.png"; sourceTree = "<group>"; };
+		988D23931E67B4A000C2702A /* FlatPig-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-14.png"; path = "../../Flat-pig-marketing/icons/FlatPig-14.png"; sourceTree = "<group>"; };
+		988D23941E67B4A000C2702A /* FlatPig-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-15.png"; path = "../../Flat-pig-marketing/icons/FlatPig-15.png"; sourceTree = "<group>"; };
+		988D239E1E67B5D500C2702A /* jam-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jam-07.png"; path = "../../Flat-pig-marketing/icons/jam-07.png"; sourceTree = "<group>"; };
+		988D239F1E67B5D500C2702A /* jam-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jam-08.png"; path = "../../Flat-pig-marketing/icons/jam-08.png"; sourceTree = "<group>"; };
+		988D23A01E67B5D500C2702A /* jam-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jam-09.png"; path = "../../Flat-pig-marketing/icons/jam-09.png"; sourceTree = "<group>"; };
+		988D23A11E67B5D500C2702A /* jam-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jam-10.png"; path = "../../Flat-pig-marketing/icons/jam-10.png"; sourceTree = "<group>"; };
+		988D23A21E67B5D500C2702A /* jam-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jam-11.png"; path = "../../Flat-pig-marketing/icons/jam-11.png"; sourceTree = "<group>"; };
+		988D23A31E67B5D500C2702A /* jam-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jam-12.png"; path = "../../Flat-pig-marketing/icons/jam-12.png"; sourceTree = "<group>"; };
+		988D23A41E67B5D500C2702A /* jam-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jam-13.png"; path = "../../Flat-pig-marketing/icons/jam-13.png"; sourceTree = "<group>"; };
+		988D23A51E67B5D500C2702A /* jam-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jam-14.png"; path = "../../Flat-pig-marketing/icons/jam-14.png"; sourceTree = "<group>"; };
+		988D23A61E67B5D500C2702A /* jam-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jam-15.png"; path = "../../Flat-pig-marketing/icons/jam-15.png"; sourceTree = "<group>"; };
+		988D23B01E67BEB500C2702A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../AboutViewController.swift; sourceTree = "<group>"; };
+		98CEBFD41E6660B500715505 /* FlatPig-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-06.png"; path = "../../Flat-pig-marketing/icons/FlatPig-06.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7652C507D84C30844649975 /* Pods_FlatPig.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +143,8 @@
 			children = (
 				9872CD931E626B4700C27FCB /* FlatPig */,
 				9872CD921E626B4700C27FCB /* Products */,
+				D0FB67D096036BA0A0C4B418 /* Pods */,
+				A6C7715CB2BE436E5549D62F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +159,106 @@
 		9872CD931E626B4700C27FCB /* FlatPig */ = {
 			isa = PBXGroup;
 			children = (
+				98CEBFD31E66606A00715505 /* Assets */,
+				98CEBFD61E6660BF00715505 /* Models */,
+				98CEBFD71E6660DA00715505 /* Controllers */,
 				9872CD941E626B4700C27FCB /* AppDelegate.swift */,
+				9872CDAE1E62839600C27FCB /* CleanAndJerksViewController.swift */,
 				9872CD961E626B4700C27FCB /* FirstViewController.swift */,
-				9872CD981E626B4700C27FCB /* SecondViewController.swift */,
+				9872CD981E626B4700C27FCB /* LifsViewController.swift */,
+				9872CDAA1E62737B00C27FCB /* BenchViewController.swift */,
+				983219C91E68FDB400138A48 /* JerkViewController.swift */,
+				983219CB1E68FDDF00138A48 /* CJerkViewController.swift */,
+				983219CD1E68FDEE00138A48 /* DeadliftViewController.swift */,
+				9872CDA81E626BA900C27FCB /* SquatViewController.swift */,
+				983219CF1E68FE0100138A48 /* FrontSquatViewController.swift */,
+				983219D11E68FE1200138A48 /* PowerCleanViewController.swift */,
+				983219C71E68FD8200138A48 /* PushPressViewController.swift */,
 				9872CD9A1E626B4700C27FCB /* Main.storyboard */,
+				988D23B01E67BEB500C2702A /* AboutViewController.swift */,
 				9872CD9D1E626B4700C27FCB /* Assets.xcassets */,
 				9872CD9F1E626B4700C27FCB /* LaunchScreen.storyboard */,
 				9872CDA21E626B4700C27FCB /* Info.plist */,
 			);
 			path = FlatPig;
+			sourceTree = "<group>";
+		};
+		98CEBFD31E66606A00715505 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				98CEBFD41E6660B500715505 /* FlatPig-06.png */,
+				988D237A1E67A6CC00C2702A /* white-icons-07.png */,
+				988D237B1E67A6CC00C2702A /* white-icons-08.png */,
+				988D238A1E67AEC900C2702A /* test-15.png */,
+				988D237C1E67A6CC00C2702A /* white-icons-09.png */,
+				988D237D1E67A6CC00C2702A /* white-icons-10.png */,
+				988D237E1E67A6CC00C2702A /* white-icons-11.png */,
+				988D237F1E67A6CC00C2702A /* white-icons-12.png */,
+				988D238C1E67B4A000C2702A /* FlatPig-07.png */,
+				988D238D1E67B4A000C2702A /* FlatPig-08.png */,
+				988D239E1E67B5D500C2702A /* jam-07.png */,
+				988D239F1E67B5D500C2702A /* jam-08.png */,
+				988D23A01E67B5D500C2702A /* jam-09.png */,
+				988D23A11E67B5D500C2702A /* jam-10.png */,
+				988D23A21E67B5D500C2702A /* jam-11.png */,
+				988D23A31E67B5D500C2702A /* jam-12.png */,
+				988D23A41E67B5D500C2702A /* jam-13.png */,
+				988D23A51E67B5D500C2702A /* jam-14.png */,
+				988D23A61E67B5D500C2702A /* jam-15.png */,
+				988D238E1E67B4A000C2702A /* FlatPig-09.png */,
+				988D238F1E67B4A000C2702A /* FlatPig-10.png */,
+				988D23901E67B4A000C2702A /* FlatPig-11.png */,
+				988D23911E67B4A000C2702A /* FlatPig-12.png */,
+				988D23921E67B4A000C2702A /* FlatPig-13.png */,
+				988D23931E67B4A000C2702A /* FlatPig-14.png */,
+				988D23941E67B4A000C2702A /* FlatPig-15.png */,
+				988D23801E67A6CC00C2702A /* white-icons-13.png */,
+				988D23811E67A6CC00C2702A /* white-icons-14.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		98CEBFD61E6660BF00715505 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9872CDB01E62844400C27FCB /* CleanAndJerkCount.swift */,
+				9872CDAC1E627B1C00C27FCB /* VisitorCount.swift */,
+				983219B71E68FC9F00138A48 /* BenchCount.swift */,
+				983219B91E68FCB200138A48 /* JerkCount.swift */,
+				983219BB1E68FCC700138A48 /* CJerkCount.swift */,
+				983219BD1E68FCD600138A48 /* DeadliftCount.swift */,
+				983219BF1E68FCF800138A48 /* SquatCount.swift */,
+				983219C11E68FD0A00138A48 /* FrontSquatCount.swift */,
+				983219C31E68FD5400138A48 /* PowerCleanCount.swift */,
+				983219C51E68FD6D00138A48 /* PushPressCount.swift */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		98CEBFD71E6660DA00715505 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A6C7715CB2BE436E5549D62F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12AFB29491A80084CFC06CE4 /* Pods_FlatPig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0FB67D096036BA0A0C4B418 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7235405B3584C05631D4CD27 /* Pods-FlatPig.debug.xcconfig */,
+				0A8231657B62EEACA9590D1C /* Pods-FlatPig.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9872CDA51E626B4700C27FCB /* Build configuration list for PBXNativeTarget "FlatPig" */;
 			buildPhases = (
+				FD35D21446C17E59A6FA36BF /* [CP] Check Pods Manifest.lock */,
 				9872CD8D1E626B4700C27FCB /* Sources */,
 				9872CD8E1E626B4700C27FCB /* Frameworks */,
 				9872CD8F1E626B4700C27FCB /* Resources */,
+				239DC046D02EE89D8AF45583 /* [CP] Embed Pods Frameworks */,
+				1654205E757213CC200FC8DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,20 +325,116 @@
 			buildActionMask = 2147483647;
 			files = (
 				9872CDA11E626B4700C27FCB /* LaunchScreen.storyboard in Resources */,
+				988D23891E67A6CC00C2702A /* white-icons-14.png in Resources */,
+				988D23A81E67B5D500C2702A /* jam-08.png in Resources */,
+				988D238B1E67AEC900C2702A /* test-15.png in Resources */,
+				988D23871E67A6CC00C2702A /* white-icons-12.png in Resources */,
+				988D23AC1E67B5D500C2702A /* jam-12.png in Resources */,
+				988D23961E67B4A000C2702A /* FlatPig-08.png in Resources */,
+				988D23AE1E67B5D500C2702A /* jam-14.png in Resources */,
+				988D23821E67A6CC00C2702A /* white-icons-07.png in Resources */,
+				988D23AA1E67B5D500C2702A /* jam-10.png in Resources */,
+				988D23831E67A6CC00C2702A /* white-icons-08.png in Resources */,
+				988D239A1E67B4A000C2702A /* FlatPig-12.png in Resources */,
+				988D23951E67B4A000C2702A /* FlatPig-07.png in Resources */,
+				988D239B1E67B4A000C2702A /* FlatPig-13.png in Resources */,
 				9872CD9E1E626B4700C27FCB /* Assets.xcassets in Resources */,
 				9872CD9C1E626B4700C27FCB /* Main.storyboard in Resources */,
+				988D239C1E67B4A000C2702A /* FlatPig-14.png in Resources */,
+				988D23AF1E67B5D500C2702A /* jam-15.png in Resources */,
+				988D23851E67A6CC00C2702A /* white-icons-10.png in Resources */,
+				988D23AD1E67B5D500C2702A /* jam-13.png in Resources */,
+				98CEBFD51E6660B500715505 /* FlatPig-06.png in Resources */,
+				988D23981E67B4A000C2702A /* FlatPig-10.png in Resources */,
+				988D23A71E67B5D500C2702A /* jam-07.png in Resources */,
+				988D23881E67A6CC00C2702A /* white-icons-13.png in Resources */,
+				988D23861E67A6CC00C2702A /* white-icons-11.png in Resources */,
+				988D23991E67B4A000C2702A /* FlatPig-11.png in Resources */,
+				988D239D1E67B4A000C2702A /* FlatPig-15.png in Resources */,
+				988D23A91E67B5D500C2702A /* jam-09.png in Resources */,
+				988D23971E67B4A000C2702A /* FlatPig-09.png in Resources */,
+				988D23AB1E67B5D500C2702A /* jam-11.png in Resources */,
+				988D23841E67A6CC00C2702A /* white-icons-09.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1654205E757213CC200FC8DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlatPig/Pods-FlatPig-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		239DC046D02EE89D8AF45583 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlatPig/Pods-FlatPig-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD35D21446C17E59A6FA36BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9872CD8D1E626B4700C27FCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9872CD991E626B4700C27FCB /* SecondViewController.swift in Sources */,
+				9872CD991E626B4700C27FCB /* LifsViewController.swift in Sources */,
+				983219D21E68FE1200138A48 /* PowerCleanViewController.swift in Sources */,
+				983219CE1E68FDEE00138A48 /* DeadliftViewController.swift in Sources */,
+				983219C21E68FD0A00138A48 /* FrontSquatCount.swift in Sources */,
+				983219C81E68FD8200138A48 /* PushPressViewController.swift in Sources */,
+				9872CDA91E626BA900C27FCB /* SquatViewController.swift in Sources */,
+				983219C01E68FCF800138A48 /* SquatCount.swift in Sources */,
+				983219CA1E68FDB400138A48 /* JerkViewController.swift in Sources */,
+				9872CDAD1E627B1C00C27FCB /* VisitorCount.swift in Sources */,
+				983219BC1E68FCC700138A48 /* CJerkCount.swift in Sources */,
+				983219BA1E68FCB200138A48 /* JerkCount.swift in Sources */,
+				983219BE1E68FCD600138A48 /* DeadliftCount.swift in Sources */,
+				983219D01E68FE0100138A48 /* FrontSquatViewController.swift in Sources */,
+				988D23B11E67BEB500C2702A /* AboutViewController.swift in Sources */,
+				983219C41E68FD5400138A48 /* PowerCleanCount.swift in Sources */,
 				9872CD951E626B4700C27FCB /* AppDelegate.swift in Sources */,
+				9872CDAF1E62839600C27FCB /* CleanAndJerksViewController.swift in Sources */,
+				983219CC1E68FDDF00138A48 /* CJerkViewController.swift in Sources */,
+				983219C61E68FD6D00138A48 /* PushPressCount.swift in Sources */,
+				9872CDB11E62844400C27FCB /* CleanAndJerkCount.swift in Sources */,
+				9872CDAB1E62737B00C27FCB /* BenchViewController.swift in Sources */,
+				983219B81E68FC9F00138A48 /* BenchCount.swift in Sources */,
 				9872CD971E626B4700C27FCB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +556,7 @@
 		};
 		9872CDA61E626B4700C27FCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7235405B3584C05631D4CD27 /* Pods-FlatPig.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L7UBP2M73C;
@@ -271,11 +565,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.loopta-technologies.FlatPig";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9872CDA71E626B4700C27FCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8231657B62EEACA9590D1C /* Pods-FlatPig.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L7UBP2M73C;
@@ -284,6 +580,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.loopta-technologies.FlatPig";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -306,6 +603,7 @@
 				9872CDA71E626B4700C27FCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
