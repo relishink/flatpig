@@ -7,29 +7,61 @@
 //
 
 import UIKit
+import Charts
+import RealmSwift
 
 class JerkViewController: UIViewController {
 
+    @IBOutlet weak var jerkInput: UITextField!
+    
+    @IBOutlet weak var jerkChart: BarChartView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        updateChartWithData()
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func addJerk(_ sender: Any) {
+
+    if let value = jerkInput.text , value != "" {
+    let jerkCount = JerkCount()
+    jerkCount.count = (NumberFormatter().number(from: value)?.intValue)!
+    jerkCount.save()
+    jerkInput.text = ""
     }
     
+    updateChartWithData()
+}
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+func updateChartWithData() {
+    var dataEntries: [BarChartDataEntry] = []
+    let jerkCounts = getJerkCountsFromDatabase()
+    for i in 0..<jerkCounts.count {
+        let dataEntry = BarChartDataEntry(x: Double(i), y: Double(jerkCounts[i].count))
+        dataEntries.append(dataEntry)
     }
-    */
+    let chartDataSet = BarChartDataSet(values: dataEntries, label: "Jerk Count")
+    let chartData = BarChartData(dataSet: chartDataSet)
+    jerkChart.data = chartData
+}
+
+
+func getJerkCountsFromDatabase() -> Results<JerkCount> {
+    do {
+        let realm = try Realm()
+        return realm.objects(JerkCount.self)
+    } catch let error as NSError {
+        fatalError(error.localizedDescription)
+    }
+}
+
+
+
+
+
+
+
 
 }

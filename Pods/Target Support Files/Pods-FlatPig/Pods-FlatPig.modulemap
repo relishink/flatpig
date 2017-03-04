@@ -1,0 +1,6 @@
+framework module Pods_FlatPig {
+  umbrella header "Pods-FlatPig-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -32,7 +32,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="caf-Tn-mbg" kind="show" id="FIs-37-0EC"/>
+                                    <segue destination="caf-Tn-mbg" kind="show" id="7WL-EO-oSp"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jam-08.png" translatesAutoresizingMaskIntoConstraints="NO" id="s5n-cl-p9A">
@@ -52,7 +52,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="feD-9k-xHg" kind="show" id="ra5-p8-Udh"/>
+                                    <segue destination="feD-9k-xHg" kind="show" id="UmK-hB-9UB"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jam-09.png" translatesAutoresizingMaskIntoConstraints="NO" id="QVf-NK-JIB">
@@ -72,7 +72,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QIo-5F-9fr" kind="show" id="6nZ-Hs-4ar"/>
+                                    <segue destination="QIo-5F-9fr" kind="show" id="s6h-Nb-qXF"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jam-10.png" translatesAutoresizingMaskIntoConstraints="NO" id="b3J-DT-Wk7">
@@ -92,7 +92,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="rr0-tr-lwM" kind="show" id="d29-bi-v9w"/>
+                                    <segue destination="rr0-tr-lwM" kind="show" id="Ke7-aE-vEO"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jam-13.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Jk-CY-9Uc">
@@ -114,7 +114,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Odq-fn-rHr" kind="show" id="xuM-2B-l2J"/>
+                                    <segue destination="Odq-fn-rHr" kind="show" id="gMW-AE-839"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jam-14.png" translatesAutoresizingMaskIntoConstraints="NO" id="CTq-ku-mtu">
@@ -135,7 +135,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mZT-pa-fP3" kind="show" id="miA-Qm-div"/>
+                                    <segue destination="mZT-pa-fP3" kind="show" id="cmp-uL-10U"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jam-07.png" translatesAutoresizingMaskIntoConstraints="NO" id="jOD-ga-Mog">
@@ -158,7 +158,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Oy5-kk-nLb" kind="show" id="8lz-fy-baj"/>
+                                    <segue destination="Oy5-kk-nLb" kind="show" id="9LM-KY-SVH"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jam-12.png" translatesAutoresizingMaskIntoConstraints="NO" id="V5v-D6-a63">
@@ -179,7 +179,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5cy-Ak-8sa" kind="show" id="jSS-uR-aj3"/>
+                                    <segue destination="5cy-Ak-8sa" kind="show" id="dhh-RL-rOf"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jam-11.png" translatesAutoresizingMaskIntoConstraints="NO" id="IYq-au-a0y">
@@ -287,18 +287,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Uh8-fO-cMJ" secondAttribute="trailing" id="Cad-Vz-EIj"/>
+                            <constraint firstItem="dXp-FW-iCY" firstAttribute="top" secondItem="Uh8-fO-cMJ" secondAttribute="bottom" id="Bal-yt-sto"/>
                             <constraint firstItem="RGY-Nr-Ecz" firstAttribute="top" secondItem="681-7K-v1H" secondAttribute="bottom" constant="10" id="M4r-Bl-ssB"/>
-                            <constraint firstItem="dXp-FW-iCY" firstAttribute="top" secondItem="Uh8-fO-cMJ" secondAttribute="bottom" id="QMh-Nr-jEw"/>
-                            <constraint firstItem="Uh8-fO-cMJ" firstAttribute="leading" secondItem="KgD-uJ-TNo" secondAttribute="leading" id="hXr-gP-7tP"/>
+                            <constraint firstItem="Uh8-fO-cMJ" firstAttribute="top" secondItem="RGY-Nr-Ecz" secondAttribute="bottom" constant="10" id="WEw-di-COg"/>
+                            <constraint firstAttribute="trailing" secondItem="Uh8-fO-cMJ" secondAttribute="trailing" id="XFg-8n-M7z"/>
+                            <constraint firstItem="Uh8-fO-cMJ" firstAttribute="leading" secondItem="KgD-uJ-TNo" secondAttribute="leading" id="aU4-V8-snE"/>
                             <constraint firstItem="RGY-Nr-Ecz" firstAttribute="leading" secondItem="KgD-uJ-TNo" secondAttribute="leading" constant="10" id="i4z-ym-N1Z"/>
                             <constraint firstAttribute="trailing" secondItem="RGY-Nr-Ecz" secondAttribute="trailing" constant="10" id="lmZ-st-fXN"/>
-                            <constraint firstItem="Uh8-fO-cMJ" firstAttribute="top" secondItem="RGY-Nr-Ecz" secondAttribute="bottom" constant="10" id="roO-3B-Xx7"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Deadlift" id="WHU-Sm-GeF">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="LVG-HM-afH"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="LVG-HM-afH">
+                            <connections>
+                                <action selector="deadLiftAdd:" destination="caf-Tn-mbg" id="02P-Go-zE8"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="deadChart" destination="Uh8-fO-cMJ" id="wFn-6D-ARN"/>
+                        <outlet property="deadInput" destination="RGY-Nr-Ecz" id="q0b-wu-9GK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zbn-ni-bHB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -329,19 +337,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="mSz-A9-5K8" firstAttribute="leading" secondItem="Vre-ev-Rwo" secondAttribute="leading" id="0ap-AW-7pT"/>
                             <constraint firstAttribute="trailing" secondItem="ylu-P8-WES" secondAttribute="trailing" constant="10" id="4oL-Dm-G1N"/>
-                            <constraint firstAttribute="trailing" secondItem="mSz-A9-5K8" secondAttribute="trailing" id="7vO-Ie-yuR"/>
-                            <constraint firstItem="bZk-Js-vXm" firstAttribute="top" secondItem="mSz-A9-5K8" secondAttribute="bottom" id="Cpv-wx-CqN"/>
+                            <constraint firstItem="bZk-Js-vXm" firstAttribute="top" secondItem="mSz-A9-5K8" secondAttribute="bottom" id="H9K-Gu-5fe"/>
                             <constraint firstItem="ylu-P8-WES" firstAttribute="top" secondItem="Pbs-gg-jXj" secondAttribute="bottom" constant="10" id="HQi-y0-dJ0"/>
                             <constraint firstItem="ylu-P8-WES" firstAttribute="leading" secondItem="Vre-ev-Rwo" secondAttribute="leading" constant="10" id="R3X-UN-lga"/>
-                            <constraint firstItem="mSz-A9-5K8" firstAttribute="top" secondItem="ylu-P8-WES" secondAttribute="bottom" constant="10" id="esZ-qy-B1I"/>
-                            <constraint firstItem="mSz-A9-5K8" firstAttribute="top" secondItem="ylu-P8-WES" secondAttribute="bottom" id="kC3-Ly-xEf"/>
+                            <constraint firstAttribute="trailing" secondItem="mSz-A9-5K8" secondAttribute="trailing" id="cC7-Dd-DHz"/>
+                            <constraint firstItem="mSz-A9-5K8" firstAttribute="leading" secondItem="Vre-ev-Rwo" secondAttribute="leading" id="dco-Uy-2x4"/>
+                            <constraint firstItem="mSz-A9-5K8" firstAttribute="top" secondItem="ylu-P8-WES" secondAttribute="bottom" constant="10" id="laX-Jg-pnt"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Front Squat" id="MRA-5n-27m">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="O5o-GZ-7k9"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="O5o-GZ-7k9">
+                            <connections>
+                                <action selector="frontSquatAdd:" destination="Odq-fn-rHr" id="Wnf-0w-txP"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="frontSquatChart" destination="mSz-A9-5K8" id="bWT-MZ-do2"/>
+                        <outlet property="frontSquatInput" destination="ylu-P8-WES" id="MF2-Sb-FLh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tp6-o2-yCC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -372,19 +387,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5SB-OK-ljY" firstAttribute="leading" secondItem="FRY-0d-L6N" secondAttribute="leading" id="6hu-ZZ-fiC"/>
-                            <constraint firstAttribute="trailing" secondItem="5SB-OK-ljY" secondAttribute="trailing" id="7wL-Nd-Fup"/>
-                            <constraint firstItem="5SB-OK-ljY" firstAttribute="top" secondItem="8NO-nz-Oah" secondAttribute="bottom" id="OpS-OI-At4"/>
+                            <constraint firstAttribute="trailing" secondItem="5SB-OK-ljY" secondAttribute="trailing" id="Bxp-Qh-CFf"/>
+                            <constraint firstItem="5SB-OK-ljY" firstAttribute="leading" secondItem="FRY-0d-L6N" secondAttribute="leading" id="H8g-W6-7La"/>
                             <constraint firstAttribute="trailing" secondItem="8NO-nz-Oah" secondAttribute="trailing" constant="10" id="PdD-dU-PlC"/>
+                            <constraint firstItem="5SB-OK-ljY" firstAttribute="top" secondItem="8NO-nz-Oah" secondAttribute="bottom" constant="10" id="TQc-7z-nuj"/>
                             <constraint firstItem="8NO-nz-Oah" firstAttribute="top" secondItem="6wq-0U-ui0" secondAttribute="bottom" constant="10" id="TVQ-Sm-hBW"/>
                             <constraint firstItem="8NO-nz-Oah" firstAttribute="leading" secondItem="FRY-0d-L6N" secondAttribute="leading" constant="10" id="XOa-Jc-ZOH"/>
-                            <constraint firstItem="5SB-OK-ljY" firstAttribute="top" secondItem="8NO-nz-Oah" secondAttribute="bottom" constant="10" id="XyN-qD-QWz"/>
-                            <constraint firstItem="3vw-SU-biz" firstAttribute="top" secondItem="5SB-OK-ljY" secondAttribute="bottom" id="bbO-q1-el0"/>
+                            <constraint firstItem="3vw-SU-biz" firstAttribute="top" secondItem="5SB-OK-ljY" secondAttribute="bottom" id="xcg-sZ-cKF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Power Clean" id="ZW1-Y3-c9q">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="B4N-AW-w37"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="B4N-AW-w37">
+                            <connections>
+                                <action selector="addPowerClean:" destination="mZT-pa-fP3" id="HEM-VB-zHl"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="powerCleanChart" destination="5SB-OK-ljY" id="7kt-d4-3Cn"/>
+                        <outlet property="powerCleanInput" destination="8NO-nz-Oah" id="zhA-DL-PtC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IiG-D9-im2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -415,19 +437,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fJJ-dM-WDh" secondAttribute="trailing" id="7MW-Pb-kjx"/>
+                            <constraint firstItem="fJJ-dM-WDh" firstAttribute="top" secondItem="cXm-bE-D6l" secondAttribute="bottom" constant="10" id="9SY-R2-v32"/>
                             <constraint firstAttribute="trailing" secondItem="cXm-bE-D6l" secondAttribute="trailing" constant="10" id="9zu-5X-owc"/>
-                            <constraint firstItem="fJJ-dM-WDh" firstAttribute="leading" secondItem="ein-7h-zf5" secondAttribute="leading" id="ah6-rL-UoD"/>
-                            <constraint firstItem="fJJ-dM-WDh" firstAttribute="top" secondItem="cXm-bE-D6l" secondAttribute="bottom" id="e3f-zo-mIe"/>
+                            <constraint firstItem="fJJ-dM-WDh" firstAttribute="leading" secondItem="ein-7h-zf5" secondAttribute="leading" id="fkB-AA-Fdy"/>
                             <constraint firstItem="cXm-bE-D6l" firstAttribute="top" secondItem="ZsL-NX-iay" secondAttribute="bottom" constant="10" id="gea-Gn-9hp"/>
-                            <constraint firstItem="Drs-rk-0k1" firstAttribute="top" secondItem="fJJ-dM-WDh" secondAttribute="bottom" id="grW-ib-4RC"/>
-                            <constraint firstItem="fJJ-dM-WDh" firstAttribute="top" secondItem="cXm-bE-D6l" secondAttribute="bottom" constant="10" id="kLG-0f-lp5"/>
+                            <constraint firstItem="Drs-rk-0k1" firstAttribute="top" secondItem="fJJ-dM-WDh" secondAttribute="bottom" id="glL-qp-5UM"/>
                             <constraint firstItem="cXm-bE-D6l" firstAttribute="leading" secondItem="ein-7h-zf5" secondAttribute="leading" constant="10" id="o5V-iI-yk1"/>
-                            <constraint firstAttribute="trailing" secondItem="fJJ-dM-WDh" secondAttribute="trailing" id="xeA-Iq-fYW"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Push Press" id="jCw-Sm-4oE">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="kH1-US-L15"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="kH1-US-L15">
+                            <connections>
+                                <action selector="addPushPress:" destination="Oy5-kk-nLb" id="S4m-hb-514"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="pushPressChart" destination="fJJ-dM-WDh" id="qkh-7y-gsR"/>
+                        <outlet property="pushPressInput" destination="cXm-bE-D6l" id="2ex-he-o4u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mjy-du-Ok8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -458,19 +487,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zUE-Gk-eKl" firstAttribute="top" secondItem="EoZ-UA-eAh" secondAttribute="bottom" id="5aK-QS-UCN"/>
-                            <constraint firstItem="qzt-Ef-Zgy" firstAttribute="top" secondItem="zUE-Gk-eKl" secondAttribute="bottom" id="DcR-3F-J80"/>
-                            <constraint firstItem="zUE-Gk-eKl" firstAttribute="top" secondItem="EoZ-UA-eAh" secondAttribute="bottom" constant="10" id="WMh-mG-RAz"/>
+                            <constraint firstAttribute="trailing" secondItem="zUE-Gk-eKl" secondAttribute="trailing" id="Fwg-66-13K"/>
+                            <constraint firstItem="zUE-Gk-eKl" firstAttribute="leading" secondItem="xs8-Vb-08J" secondAttribute="leading" id="JDe-Pa-Cxg"/>
                             <constraint firstItem="EoZ-UA-eAh" firstAttribute="leading" secondItem="xs8-Vb-08J" secondAttribute="leading" constant="10" id="X40-Uz-A0j"/>
-                            <constraint firstAttribute="trailing" secondItem="zUE-Gk-eKl" secondAttribute="trailing" id="YsM-Jx-w37"/>
                             <constraint firstAttribute="trailing" secondItem="EoZ-UA-eAh" secondAttribute="trailing" constant="10" id="ZH8-eM-G5h"/>
-                            <constraint firstItem="zUE-Gk-eKl" firstAttribute="leading" secondItem="xs8-Vb-08J" secondAttribute="leading" id="rua-j5-6RM"/>
+                            <constraint firstItem="zUE-Gk-eKl" firstAttribute="top" secondItem="EoZ-UA-eAh" secondAttribute="bottom" constant="10" id="kz8-aR-vLZ"/>
+                            <constraint firstItem="qzt-Ef-Zgy" firstAttribute="top" secondItem="zUE-Gk-eKl" secondAttribute="bottom" id="qxh-ds-x9G"/>
                             <constraint firstItem="EoZ-UA-eAh" firstAttribute="top" secondItem="bdh-j2-1LA" secondAttribute="bottom" constant="10" id="sBE-Ye-XYJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Jerk" id="61u-tY-zaR">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="bbA-W8-4ug"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="bbA-W8-4ug">
+                            <connections>
+                                <action selector="addJerk:" destination="5cy-Ak-8sa" id="OFP-gk-Cbz"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="jerkChart" destination="zUE-Gk-eKl" id="CwC-nh-Gai"/>
+                        <outlet property="jerkInput" destination="EoZ-UA-eAh" id="KRW-Ek-dAE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="irh-7D-3Co" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -501,19 +537,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="AvK-yF-Pkf" firstAttribute="leading" secondItem="f8t-bw-v0D" secondAttribute="leading" id="7Hi-V8-Whu"/>
+                            <constraint firstItem="AvK-yF-Pkf" firstAttribute="top" secondItem="5eu-wo-sU9" secondAttribute="bottom" constant="10" id="Cbf-Dq-tjS"/>
                             <constraint firstAttribute="trailing" secondItem="5eu-wo-sU9" secondAttribute="trailing" constant="10" id="Erb-jj-Kda"/>
-                            <constraint firstItem="AvK-yF-Pkf" firstAttribute="top" secondItem="5eu-wo-sU9" secondAttribute="bottom" constant="10" id="Xyh-Sr-uxw"/>
-                            <constraint firstAttribute="trailing" secondItem="AvK-yF-Pkf" secondAttribute="trailing" id="cXa-0o-x9b"/>
+                            <constraint firstItem="VzO-Uw-WOz" firstAttribute="top" secondItem="AvK-yF-Pkf" secondAttribute="bottom" id="Fo8-qD-Hzf"/>
+                            <constraint firstItem="AvK-yF-Pkf" firstAttribute="leading" secondItem="f8t-bw-v0D" secondAttribute="leading" id="MYE-PC-ytA"/>
                             <constraint firstItem="5eu-wo-sU9" firstAttribute="top" secondItem="zq6-KG-QgE" secondAttribute="bottom" constant="10" id="hbR-cT-Xwv"/>
-                            <constraint firstItem="AvK-yF-Pkf" firstAttribute="top" secondItem="5eu-wo-sU9" secondAttribute="bottom" id="lnC-jX-D6f"/>
+                            <constraint firstAttribute="trailing" secondItem="AvK-yF-Pkf" secondAttribute="trailing" id="vAe-D2-y2F"/>
                             <constraint firstItem="5eu-wo-sU9" firstAttribute="leading" secondItem="f8t-bw-v0D" secondAttribute="leading" constant="10" id="wsn-cT-YNf"/>
-                            <constraint firstItem="VzO-Uw-WOz" firstAttribute="top" secondItem="AvK-yF-Pkf" secondAttribute="bottom" id="zEP-Pq-A2i"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Squat" id="g3W-YM-PGQ">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="2iK-LS-Abi"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="2iK-LS-Abi">
+                            <connections>
+                                <action selector="squatAddTapped:" destination="feD-9k-xHg" id="iko-Nt-ZXN"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="squatChart" destination="AvK-yF-Pkf" id="iwe-Gh-r8m"/>
+                        <outlet property="squatInput" destination="5eu-wo-sU9" id="BoH-Q9-gAW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fRI-kg-hIf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -544,22 +587,29 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="pER-1Q-azD" firstAttribute="top" secondItem="Wmo-T2-Ddf" secondAttribute="bottom" id="Fib-Zl-u87"/>
+                            <constraint firstAttribute="trailing" secondItem="pER-1Q-azD" secondAttribute="trailing" id="3r8-Fy-R9T"/>
+                            <constraint firstItem="pER-1Q-azD" firstAttribute="top" secondItem="Wmo-T2-Ddf" secondAttribute="bottom" constant="10" id="7UL-GL-caC"/>
                             <constraint firstAttribute="trailing" secondItem="Wmo-T2-Ddf" secondAttribute="trailing" constant="10" id="H18-es-vBy"/>
-                            <constraint firstItem="pER-1Q-azD" firstAttribute="leading" secondItem="aLz-XA-a5k" secondAttribute="leading" id="Kyw-7h-JTW"/>
                             <constraint firstItem="Wmo-T2-Ddf" firstAttribute="leading" secondItem="aLz-XA-a5k" secondAttribute="leading" constant="10" id="VJP-lH-TER"/>
-                            <constraint firstAttribute="trailing" secondItem="pER-1Q-azD" secondAttribute="trailing" id="Ye4-LK-zZh"/>
+                            <constraint firstItem="pER-1Q-azD" firstAttribute="leading" secondItem="aLz-XA-a5k" secondAttribute="leading" id="Wb8-es-9U6"/>
                             <constraint firstItem="Wmo-T2-Ddf" firstAttribute="top" secondItem="Kie-EH-xsJ" secondAttribute="bottom" constant="10" id="csJ-oV-0us"/>
-                            <constraint firstItem="pER-1Q-azD" firstAttribute="top" secondItem="Wmo-T2-Ddf" secondAttribute="bottom" constant="10" id="i3s-5G-vlP"/>
                             <constraint firstAttribute="trailing" secondItem="Wmo-T2-Ddf" secondAttribute="trailing" constant="10" id="mfi-BR-P4W"/>
+                            <constraint firstItem="zxE-he-585" firstAttribute="top" secondItem="pER-1Q-azD" secondAttribute="bottom" id="nFy-XT-3wM"/>
                             <constraint firstItem="Wmo-T2-Ddf" firstAttribute="leading" secondItem="aLz-XA-a5k" secondAttribute="leading" constant="10" id="o3Y-Pp-t8B"/>
-                            <constraint firstItem="zxE-he-585" firstAttribute="top" secondItem="pER-1Q-azD" secondAttribute="bottom" id="ogt-za-Ilu"/>
                             <constraint firstItem="Wmo-T2-Ddf" firstAttribute="top" secondItem="Kie-EH-xsJ" secondAttribute="bottom" constant="10" id="xrn-95-edS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Bench" id="Tlb-4W-XQ8">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="FeH-YK-wu4"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="FeH-YK-wu4">
+                            <connections>
+                                <action selector="benchAddTapped:" destination="QIo-5F-9fr" id="XWW-cA-s8u"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="benchChart" destination="pER-1Q-azD" id="jec-2z-4Vr"/>
+                        <outlet property="benchInput" destination="Wmo-T2-Ddf" id="MLD-gt-mF8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bQ7-3f-Vi3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -590,19 +640,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="OPH-aH-hvm" firstAttribute="leading" secondItem="xOr-5l-7TN" secondAttribute="leading" id="4GZ-mu-7Ci"/>
+                            <constraint firstAttribute="trailing" secondItem="OPH-aH-hvm" secondAttribute="trailing" id="00R-3h-yoG"/>
                             <constraint firstItem="ops-yf-sQc" firstAttribute="leading" secondItem="xOr-5l-7TN" secondAttribute="leading" constant="10" id="5f1-vt-ifZ"/>
-                            <constraint firstAttribute="trailing" secondItem="OPH-aH-hvm" secondAttribute="trailing" id="FKe-UJ-cq3"/>
-                            <constraint firstItem="8q2-RM-vV3" firstAttribute="top" secondItem="OPH-aH-hvm" secondAttribute="bottom" id="GzQ-hE-VXt"/>
                             <constraint firstItem="ops-yf-sQc" firstAttribute="top" secondItem="8sA-fp-WST" secondAttribute="bottom" constant="10" id="OaN-bY-daX"/>
                             <constraint firstAttribute="trailing" secondItem="ops-yf-sQc" secondAttribute="trailing" constant="10" id="YLX-xf-9Ll"/>
-                            <constraint firstItem="OPH-aH-hvm" firstAttribute="top" secondItem="ops-yf-sQc" secondAttribute="bottom" constant="10" id="Yrn-f3-ner"/>
-                            <constraint firstItem="OPH-aH-hvm" firstAttribute="top" secondItem="ops-yf-sQc" secondAttribute="bottom" id="mx7-Q8-dSS"/>
+                            <constraint firstItem="OPH-aH-hvm" firstAttribute="top" secondItem="ops-yf-sQc" secondAttribute="bottom" constant="10" id="fVc-Ps-OWP"/>
+                            <constraint firstItem="OPH-aH-hvm" firstAttribute="leading" secondItem="xOr-5l-7TN" secondAttribute="leading" id="iJ1-AQ-nb0"/>
+                            <constraint firstItem="8q2-RM-vV3" firstAttribute="top" secondItem="OPH-aH-hvm" secondAttribute="bottom" id="oI6-yy-nn1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Clean and Jerk" id="CPP-bz-hh0">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="kfi-5M-nay"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="kfi-5M-nay">
+                            <connections>
+                                <action selector="cajAddTapped:" destination="rr0-tr-lwM" id="Pco-Kk-F8R"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="cajChart" destination="OPH-aH-hvm" id="qup-Te-cuH"/>
+                        <outlet property="cajInput" destination="ops-yf-sQc" id="D35-86-bzI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Txj-od-YJa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

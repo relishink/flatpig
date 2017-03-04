@@ -13,10 +13,8 @@ import RealmSwift
 class BenchViewController: UIViewController {
 
     @IBOutlet weak var benchInput: UITextField!
-    
-    @IBOutlet weak var benchChart: BarChartView!
-    
 
+    @IBOutlet weak var benchChart: BarChartView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,13 +22,12 @@ class BenchViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
-    @IBAction func benchAddTapped(_ sender: Any) {
+    @IBAction func benchAddTapped(_ sender: Any)  {
         
         if let value = benchInput.text , value != "" {
-            let visitorCount = VisitorCount()
-            visitorCount.count = (NumberFormatter().number(from: value)?.intValue)!
-            visitorCount.save()
+            let benchCount = BenchCount()
+            benchCount.count = (NumberFormatter().number(from: value)?.intValue)!
+            benchCount.save()
             benchInput.text = ""
         }
         
@@ -40,21 +37,21 @@ class BenchViewController: UIViewController {
     
     func updateChartWithData() {
         var dataEntries: [BarChartDataEntry] = []
-        let visitorCounts = getVisitorCountsFromDatabase()
-        for i in 0..<visitorCounts.count {
-            let dataEntry = BarChartDataEntry(x: Double(i), y: Double(visitorCounts[i].count))
+        let benchCounts = getBenchCountsFromDatabase()
+        for i in 0..<benchCounts.count {
+            let dataEntry = BarChartDataEntry(x: Double(i), y: Double(benchCounts[i].count))
             dataEntries.append(dataEntry)
         }
-        let chartDataSet = BarChartDataSet(values: dataEntries, label: "Visitor count")
+        let chartDataSet = BarChartDataSet(values: dataEntries, label: "Bench Count")
         let chartData = BarChartData(dataSet: chartDataSet)
         benchChart.data = chartData
     }
     
     
-    func getVisitorCountsFromDatabase() -> Results<VisitorCount> {
+    func getBenchCountsFromDatabase() -> Results<BenchCount> {
         do {
             let realm = try Realm()
-            return realm.objects(VisitorCount.self)
+            return realm.objects(BenchCount.self)
         } catch let error as NSError {
             fatalError(error.localizedDescription)
         }

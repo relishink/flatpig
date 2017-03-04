@@ -13,8 +13,10 @@ import RealmSwift
 
 class SquatViewController: UIViewController {
 
+  
     @IBOutlet weak var squatInput: UITextField!
     
+
     @IBOutlet weak var squatChart: BarChartView!
     
     override func viewDidLoad() {
@@ -24,6 +26,7 @@ class SquatViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
     @IBAction func squatAddTapped(_ sender: Any) {
         
         if let value = squatInput.text , value != "" {

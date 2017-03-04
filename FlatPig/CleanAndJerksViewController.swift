@@ -12,8 +12,10 @@ import RealmSwift
 
 class CleanAndJerksViewController: UIViewController {
 
+    
     @IBOutlet weak var cajInput: UITextField!
     
+
     @IBOutlet weak var cajChart: BarChartView!
     
     
@@ -34,8 +36,6 @@ class CleanAndJerksViewController: UIViewController {
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
         */
     }
-    
- 
     
     @IBAction func cajAddTapped(_ sender: Any) {
         
