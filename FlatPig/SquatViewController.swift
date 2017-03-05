@@ -45,7 +45,7 @@ class SquatViewController: UIViewController {
             let dataEntry = BarChartDataEntry(x: Double(i), y: Double(visitorCounts[i].count))
             dataEntries.append(dataEntry)
         }
-        let chartDataSet = BarChartDataSet(values: dataEntries, label: "Visitor count")
+        let chartDataSet = BarChartDataSet(values: dataEntries, label: "Squat Weight")
         let chartData = BarChartData(dataSet: chartDataSet)
         squatChart.data = chartData
     }

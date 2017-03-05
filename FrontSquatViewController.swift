@@ -8,6 +8,7 @@
 
 import UIKit
 import Charts
+import RealmSwift
 
 
 class FrontSquatViewController: UIViewController {
@@ -25,5 +26,42 @@ class FrontSquatViewController: UIViewController {
 
 
     @IBAction func frontSquatAdd(_ sender: Any) {
+
+        
+        if let value = frontSquatInput.text , value != "" {
+            let frontSquatCount = FrontSquatCount()
+            frontSquatCount.count = (NumberFormatter().number(from: value)?.intValue)!
+            frontSquatCount.save()
+            frontSquatInput.text = ""
+        }
+        updateChartWithData()
     }
+    
+    func updateChartWithData() {
+        var dataEntries: [BarChartDataEntry] = []
+        let frontSquatCounts = getFrontSquatCountsFromDatabase()
+        for i in 0..<frontSquatCounts.count {
+            let dataEntry = BarChartDataEntry(x: Double(i), y: Double(frontSquatCounts[i].count))
+            dataEntries.append(dataEntry)
+        }
+        let chartDataSet = BarChartDataSet(values: dataEntries, label: "Front Squat Weight")
+        let chartData = BarChartData(dataSet: chartDataSet)
+        frontSquatChart.data = chartData
+    }
+    
+    
+    func getFrontSquatCountsFromDatabase() -> Results<FrontSquatCount> {
+        do {
+            let realm = try Realm()
+            return realm.objects(FrontSquatCount.self)
+        } catch let error as NSError {
+            fatalError(error.localizedDescription)
+        }
+    }
+
+    
+    
+    
+    
+    
 }

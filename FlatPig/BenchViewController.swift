@@ -20,7 +20,11 @@ class BenchViewController: UIViewController {
         super.viewDidLoad()
         updateChartWithData()
         // Do any additional setup after loading the view.
+        
+        
     }
+    
+  
 
     @IBAction func benchAddTapped(_ sender: Any)  {
         
