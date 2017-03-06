@@ -205,6 +205,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="lhI-ho-ysh" firstAttribute="leading" secondItem="DJj-um-YAx" secondAttribute="leading" constant="10" id="32N-x3-PbQ"/>
@@ -806,7 +807,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LSk-oC-bTv" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="LIFTS" image="track" id="zBC-IB-E3v"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="11b-Hs-JAz">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="11b-Hs-JAz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

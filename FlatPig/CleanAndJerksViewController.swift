@@ -28,13 +28,6 @@ class CleanAndJerksViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.navigationItem.title = "New title"
         
-        /*
-        tabBarController?.tabBar.barTintColor = UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)
-        tabBarController?.tabBar.tintColor = UIColor.yellow
-        UINavigationBar.appearance().barTintColor = UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)
-        UINavigationBar.appearance().tintColor = UIColor.white
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
-        */
     }
     
     @IBAction func cajAddTapped(_ sender: Any) {

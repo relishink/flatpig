@@ -14,11 +14,7 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        /* tabBarController?.tabBar.barTintColor = UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)
-        tabBarController?.tabBar.tintColor = UIColor.white
-        UINavigationBar.appearance().barTintColor = UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)
-        UINavigationBar.appearance().tintColor = UIColor.white
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white] */
+
     }
 
     override func didReceiveMemoryWarning() {
