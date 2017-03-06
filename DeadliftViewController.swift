@@ -20,7 +20,7 @@ class DeadliftViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        updateChartWithData()
         // Do any additional setup after loading the view.
     }
 
@@ -43,12 +43,14 @@ class DeadliftViewController: UIViewController {
     
     func updateChartWithData() {
         var dataEntries: [BarChartDataEntry] = []
+        deadChart.chartDescription?.text = ""
         let deadLiftCounts = getDeadLiftCountsFromDatabase()
         for i in 0..<deadLiftCounts.count {
             let dataEntry = BarChartDataEntry(x: Double(i), y: Double(deadLiftCounts[i].count))
             dataEntries.append(dataEntry)
         }
         let chartDataSet = BarChartDataSet(values: dataEntries, label: "Deadlift Weight")
+        chartDataSet.colors = [UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)]
         let chartData = BarChartData(dataSet: chartDataSet)
         deadChart.data = chartData
     }

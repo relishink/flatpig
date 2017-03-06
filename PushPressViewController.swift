@@ -18,8 +18,9 @@ class PushPressViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        updateChartWithData()
         // Do any additional setup after loading the view.
+        
     }
 
     @IBAction func addPushPress(_ sender: Any) {
@@ -37,6 +38,7 @@ class PushPressViewController: UIViewController {
     
     
     func updateChartWithData() {
+        
         var dataEntries: [BarChartDataEntry] = []
         let pushPressCounts = getPushPressFromDatabase()
         for i in 0..<pushPressCounts.count {
@@ -44,9 +46,8 @@ class PushPressViewController: UIViewController {
             dataEntries.append(dataEntry)
         }
         let chartDataSet = BarChartDataSet(values: dataEntries, label: "Push Press Weight")
+        pushPressChart.chartDescription?.text = ""
         chartDataSet.colors = [UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)]
-        
-        
         let chartData = BarChartData(dataSet: chartDataSet)
         pushPressChart.data = chartData
         

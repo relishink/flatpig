@@ -20,8 +20,9 @@ class BenchViewController: UIViewController {
         super.viewDidLoad()
         updateChartWithData()
         // Do any additional setup after loading the view.
-        
-        
+
+
+ 
     }
     
   
@@ -34,7 +35,6 @@ class BenchViewController: UIViewController {
             benchCount.save()
             benchInput.text = ""
         }
-        
         updateChartWithData()
     }
 
@@ -42,11 +42,13 @@ class BenchViewController: UIViewController {
     func updateChartWithData() {
         var dataEntries: [BarChartDataEntry] = []
         let benchCounts = getBenchCountsFromDatabase()
+        benchChart.chartDescription?.text = ""
         for i in 0..<benchCounts.count {
             let dataEntry = BarChartDataEntry(x: Double(i), y: Double(benchCounts[i].count))
             dataEntries.append(dataEntry)
         }
         let chartDataSet = BarChartDataSet(values: dataEntries, label: "Bench Count")
+        chartDataSet.colors = [UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)]
         let chartData = BarChartData(dataSet: chartDataSet)
         benchChart.data = chartData
     }

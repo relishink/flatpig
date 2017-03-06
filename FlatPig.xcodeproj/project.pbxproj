@@ -61,6 +61,8 @@
 		988D23AF1E67B5D500C2702A /* jam-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 988D23A61E67B5D500C2702A /* jam-15.png */; };
 		988D23B11E67BEB500C2702A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D23B01E67BEB500C2702A /* AboutViewController.swift */; };
 		98CEBFD51E6660B500715505 /* FlatPig-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CEBFD41E6660B500715505 /* FlatPig-06.png */; };
+		98D86BE41E6CE54E00603F81 /* Texta-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D86BE11E6CE50400603F81 /* Texta-Regular.otf */; };
+		98D86BE51E6CE54E00603F81 /* Texta-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D86BE21E6CE51100603F81 /* Texta-Bold.otf */; };
 		B7652C507D84C30844649975 /* Pods_FlatPig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AFB29491A80084CFC06CE4 /* Pods_FlatPig.framework */; };
 /* End PBXBuildFile section */
 
@@ -124,6 +126,8 @@
 		988D23A61E67B5D500C2702A /* jam-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jam-15.png"; path = "../../Flat-pig-marketing/icons/jam-15.png"; sourceTree = "<group>"; };
 		988D23B01E67BEB500C2702A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../AboutViewController.swift; sourceTree = "<group>"; };
 		98CEBFD41E6660B500715505 /* FlatPig-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-06.png"; path = "../../Flat-pig-marketing/icons/FlatPig-06.png"; sourceTree = "<group>"; };
+		98D86BE11E6CE50400603F81 /* Texta-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Texta-Regular.otf"; path = "../TheGOAT/TheGOAT/Texta-Regular.otf"; sourceTree = "<group>"; };
+		98D86BE21E6CE51100603F81 /* Texta-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Texta-Bold.otf"; path = "../TheGOAT/TheGOAT/Texta-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,7 @@
 		9872CD931E626B4700C27FCB /* FlatPig */ = {
 			isa = PBXGroup;
 			children = (
+				98D86BE31E6CE51800603F81 /* Fonts */,
 				98CEBFD31E66606A00715505 /* Assets */,
 				98CEBFD61E6660BF00715505 /* Models */,
 				98CEBFD71E6660DA00715505 /* Controllers */,
@@ -244,6 +249,16 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		98D86BE31E6CE51800603F81 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				98D86BE11E6CE50400603F81 /* Texta-Regular.otf */,
+				98D86BE21E6CE51100603F81 /* Texta-Bold.otf */,
+			);
+			name = Fonts;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		A6C7715CB2BE436E5549D62F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +339,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D86BE41E6CE54E00603F81 /* Texta-Regular.otf in Resources */,
+				98D86BE51E6CE54E00603F81 /* Texta-Bold.otf in Resources */,
 				9872CDA11E626B4700C27FCB /* LaunchScreen.storyboard in Resources */,
 				988D23891E67A6CC00C2702A /* white-icons-14.png in Resources */,
 				988D23A81E67B5D500C2702A /* jam-08.png in Resources */,

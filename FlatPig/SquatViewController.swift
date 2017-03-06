@@ -40,12 +40,14 @@ class SquatViewController: UIViewController {
     
     func updateChartWithData() {
         var dataEntries: [BarChartDataEntry] = []
+        squatChart.chartDescription?.text = ""
         let visitorCounts = getVisitorCountsFromDatabase()
         for i in 0..<visitorCounts.count {
             let dataEntry = BarChartDataEntry(x: Double(i), y: Double(visitorCounts[i].count))
             dataEntries.append(dataEntry)
         }
         let chartDataSet = BarChartDataSet(values: dataEntries, label: "Squat Weight")
+        chartDataSet.colors = [UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)]
         let chartData = BarChartData(dataSet: chartDataSet)
         squatChart.data = chartData
     }

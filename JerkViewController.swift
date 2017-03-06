@@ -38,11 +38,13 @@ class JerkViewController: UIViewController {
 func updateChartWithData() {
     var dataEntries: [BarChartDataEntry] = []
     let jerkCounts = getJerkCountsFromDatabase()
+    jerkChart.chartDescription?.text = ""
     for i in 0..<jerkCounts.count {
         let dataEntry = BarChartDataEntry(x: Double(i), y: Double(jerkCounts[i].count))
         dataEntries.append(dataEntry)
     }
     let chartDataSet = BarChartDataSet(values: dataEntries, label: "Jerk Count")
+    chartDataSet.colors = [UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)]
     let chartData = BarChartData(dataSet: chartDataSet)
     jerkChart.data = chartData
 }

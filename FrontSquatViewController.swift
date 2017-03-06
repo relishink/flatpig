@@ -39,12 +39,14 @@ class FrontSquatViewController: UIViewController {
     
     func updateChartWithData() {
         var dataEntries: [BarChartDataEntry] = []
+        frontSquatChart.chartDescription?.text = ""
         let frontSquatCounts = getFrontSquatCountsFromDatabase()
         for i in 0..<frontSquatCounts.count {
             let dataEntry = BarChartDataEntry(x: Double(i), y: Double(frontSquatCounts[i].count))
             dataEntries.append(dataEntry)
         }
         let chartDataSet = BarChartDataSet(values: dataEntries, label: "Front Squat Weight")
+        chartDataSet.colors = [UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)]
         let chartData = BarChartData(dataSet: chartDataSet)
         frontSquatChart.data = chartData
     }

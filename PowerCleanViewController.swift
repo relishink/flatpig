@@ -20,7 +20,7 @@ class PowerCleanViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        updateChartWithData()
         // Do any additional setup after loading the view.
     }
 
@@ -39,12 +39,14 @@ class PowerCleanViewController: UIViewController {
     
     func updateChartWithData() {
         var dataEntries: [BarChartDataEntry] = []
+        powerCleanChart.chartDescription?.text = ""
         let powerCleanCounts = getPowerCleanCountsFromDatabase()
         for i in 0..<powerCleanCounts.count {
             let dataEntry = BarChartDataEntry(x: Double(i), y: Double(powerCleanCounts[i].count))
             dataEntries.append(dataEntry)
         }
         let chartDataSet = BarChartDataSet(values: dataEntries, label: "Power Clean Weight")
+        chartDataSet.colors = [UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)]
         let chartData = BarChartData(dataSet: chartDataSet)
         powerCleanChart.data = chartData
     }

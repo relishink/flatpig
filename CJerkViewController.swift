@@ -17,7 +17,7 @@ class CJerkViewController: UIViewController {
     @IBOutlet weak var cajChart: BarChartView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        updateChartWithData()
         // Do any additional setup after loading the view.
     }
 
@@ -37,12 +37,14 @@ class CJerkViewController: UIViewController {
     
     func updateChartWithData() {
         var dataEntries: [BarChartDataEntry] = []
+        cajChart.chartDescription?.text = ""
         let cJerkCounts = getCajCountsFromDatabase()
         for i in 0..<cJerkCounts.count {
             let dataEntry = BarChartDataEntry(x: Double(i), y: Double(cJerkCounts[i].count))
             dataEntries.append(dataEntry)
         }
         let chartDataSet = BarChartDataSet(values: dataEntries, label: "Clean+Jerk Weight")
+        chartDataSet.colors = [UIColor(red: 255/255, green: 69/255, blue: 74/255, alpha: 1)]
         let chartData = BarChartData(dataSet: chartDataSet)
         cajChart.data = chartData
     }
