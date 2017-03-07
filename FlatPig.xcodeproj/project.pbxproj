@@ -21,6 +21,8 @@
 		983219CE1E68FDEE00138A48 /* DeadliftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219CD1E68FDEE00138A48 /* DeadliftViewController.swift */; };
 		983219D01E68FE0100138A48 /* FrontSquatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219CF1E68FE0100138A48 /* FrontSquatViewController.swift */; };
 		983219D21E68FE1200138A48 /* PowerCleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983219D11E68FE1200138A48 /* PowerCleanViewController.swift */; };
+		984521FC1E6E249D00E554B5 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984521FB1E6E249D00E554B5 /* ProgramViewController.swift */; };
+		984521FE1E6E27E800E554B5 /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984521FD1E6E27E800E554B5 /* DietViewController.swift */; };
 		9872CD951E626B4700C27FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CD941E626B4700C27FCB /* AppDelegate.swift */; };
 		9872CD971E626B4700C27FCB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CD961E626B4700C27FCB /* FirstViewController.swift */; };
 		9872CD991E626B4700C27FCB /* LifsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872CD981E626B4700C27FCB /* LifsViewController.swift */; };
@@ -84,6 +86,8 @@
 		983219CD1E68FDEE00138A48 /* DeadliftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeadliftViewController.swift; path = ../DeadliftViewController.swift; sourceTree = "<group>"; };
 		983219CF1E68FE0100138A48 /* FrontSquatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrontSquatViewController.swift; path = ../FrontSquatViewController.swift; sourceTree = "<group>"; };
 		983219D11E68FE1200138A48 /* PowerCleanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerCleanViewController.swift; path = ../PowerCleanViewController.swift; sourceTree = "<group>"; };
+		984521FB1E6E249D00E554B5 /* ProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgramViewController.swift; path = ../ProgramViewController.swift; sourceTree = "<group>"; };
+		984521FD1E6E27E800E554B5 /* DietViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
 		9872CD911E626B4700C27FCB /* FlatPig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatPig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9872CD941E626B4700C27FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9872CD961E626B4700C27FCB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -177,9 +181,11 @@
 				983219CD1E68FDEE00138A48 /* DeadliftViewController.swift */,
 				9872CDA81E626BA900C27FCB /* SquatViewController.swift */,
 				983219CF1E68FE0100138A48 /* FrontSquatViewController.swift */,
-				983219D11E68FE1200138A48 /* PowerCleanViewController.swift */,
+				984521FB1E6E249D00E554B5 /* ProgramViewController.swift */,
 				983219C71E68FD8200138A48 /* PushPressViewController.swift */,
 				9872CD9A1E626B4700C27FCB /* Main.storyboard */,
+				984521FD1E6E27E800E554B5 /* DietViewController.swift */,
+				983219D11E68FE1200138A48 /* PowerCleanViewController.swift */,
 				988D23B01E67BEB500C2702A /* AboutViewController.swift */,
 				9872CD9D1E626B4700C27FCB /* Assets.xcassets */,
 				9872CD9F1E626B4700C27FCB /* LaunchScreen.storyboard */,
@@ -435,9 +441,11 @@
 				983219CE1E68FDEE00138A48 /* DeadliftViewController.swift in Sources */,
 				983219C21E68FD0A00138A48 /* FrontSquatCount.swift in Sources */,
 				983219C81E68FD8200138A48 /* PushPressViewController.swift in Sources */,
+				984521FC1E6E249D00E554B5 /* ProgramViewController.swift in Sources */,
 				9872CDA91E626BA900C27FCB /* SquatViewController.swift in Sources */,
 				983219C01E68FCF800138A48 /* SquatCount.swift in Sources */,
 				983219CA1E68FDB400138A48 /* JerkViewController.swift in Sources */,
+				984521FE1E6E27E800E554B5 /* DietViewController.swift in Sources */,
 				9872CDAD1E627B1C00C27FCB /* VisitorCount.swift in Sources */,
 				983219BC1E68FCC700138A48 /* CJerkCount.swift in Sources */,
 				983219BA1E68FCB200138A48 /* JerkCount.swift in Sources */,
