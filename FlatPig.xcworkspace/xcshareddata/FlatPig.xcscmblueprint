@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "130A68892BC053993485E07D49084CF82FBCFD54",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BC4AD4B7BB538A7D9DE2265CDA8B00392CD7D02A" : 9223372036854775807,
+    "05033BEE0697B0C93C2A919F0177CE10AA3816D2" : 9223372036854775807,
+    "130A68892BC053993485E07D49084CF82FBCFD54" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F6EF1432-B73D-4514-9E0C-5B93523C580E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BC4AD4B7BB538A7D9DE2265CDA8B00392CD7D02A" : "Flat-pig-marketing\/",
+    "05033BEE0697B0C93C2A919F0177CE10AA3816D2" : "TheGOAT\/",
+    "130A68892BC053993485E07D49084CF82FBCFD54" : "FlatPig\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FlatPig",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FlatPig.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/relishink\/TheGOAT.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "05033BEE0697B0C93C2A919F0177CE10AA3816D2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/relishink\/flatpig.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "130A68892BC053993485E07D49084CF82FBCFD54"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/relishink\/flatpig-marketing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC4AD4B7BB538A7D9DE2265CDA8B00392CD7D02A"
+    }
+  ]
+}

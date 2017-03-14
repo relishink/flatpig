@@ -65,6 +65,8 @@
 		98CEBFD51E6660B500715505 /* FlatPig-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CEBFD41E6660B500715505 /* FlatPig-06.png */; };
 		98D86BE41E6CE54E00603F81 /* Texta-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D86BE11E6CE50400603F81 /* Texta-Regular.otf */; };
 		98D86BE51E6CE54E00603F81 /* Texta-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98D86BE21E6CE51100603F81 /* Texta-Bold.otf */; };
+		98E68FB01E73840E00A288A7 /* favicon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E68FAF1E73840E00A288A7 /* favicon-29.png */; };
+		98E68FB21E73847900A288A7 /* launch-logo-53.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E68FB11E73847900A288A7 /* launch-logo-53.png */; };
 		B7652C507D84C30844649975 /* Pods_FlatPig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AFB29491A80084CFC06CE4 /* Pods_FlatPig.framework */; };
 /* End PBXBuildFile section */
 
@@ -132,6 +134,8 @@
 		98CEBFD41E6660B500715505 /* FlatPig-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FlatPig-06.png"; path = "../../Flat-pig-marketing/icons/FlatPig-06.png"; sourceTree = "<group>"; };
 		98D86BE11E6CE50400603F81 /* Texta-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Texta-Regular.otf"; path = "../TheGOAT/TheGOAT/Texta-Regular.otf"; sourceTree = "<group>"; };
 		98D86BE21E6CE51100603F81 /* Texta-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Texta-Bold.otf"; path = "../TheGOAT/TheGOAT/Texta-Bold.otf"; sourceTree = "<group>"; };
+		98E68FAF1E73840E00A288A7 /* favicon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "favicon-29.png"; path = "../../Flat-pig-marketing/logo exports/favicon-29.png"; sourceTree = "<group>"; };
+		98E68FB11E73847900A288A7 /* launch-logo-53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launch-logo-53.png"; path = "../../Flat-pig-marketing/logo exports/launch-logo-53.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,7 @@
 				988D237D1E67A6CC00C2702A /* white-icons-10.png */,
 				988D237E1E67A6CC00C2702A /* white-icons-11.png */,
 				988D237F1E67A6CC00C2702A /* white-icons-12.png */,
+				98E68FAF1E73840E00A288A7 /* favicon-29.png */,
 				988D238C1E67B4A000C2702A /* FlatPig-07.png */,
 				988D238D1E67B4A000C2702A /* FlatPig-08.png */,
 				988D239E1E67B5D500C2702A /* jam-07.png */,
@@ -219,6 +224,7 @@
 				988D238E1E67B4A000C2702A /* FlatPig-09.png */,
 				988D238F1E67B4A000C2702A /* FlatPig-10.png */,
 				988D23901E67B4A000C2702A /* FlatPig-11.png */,
+				98E68FB11E73847900A288A7 /* launch-logo-53.png */,
 				988D23911E67B4A000C2702A /* FlatPig-12.png */,
 				988D23921E67B4A000C2702A /* FlatPig-13.png */,
 				988D23931E67B4A000C2702A /* FlatPig-14.png */,
@@ -317,7 +323,7 @@
 				TargetAttributes = {
 					9872CD901E626B4700C27FCB = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = L7UBP2M73C;
+						DevelopmentTeam = A9EU8AV4Z5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -378,6 +384,8 @@
 				988D23971E67B4A000C2702A /* FlatPig-09.png in Resources */,
 				988D23AB1E67B5D500C2702A /* jam-11.png in Resources */,
 				988D23841E67A6CC00C2702A /* white-icons-09.png in Resources */,
+				98E68FB21E73847900A288A7 /* launch-logo-53.png in Resources */,
+				98E68FB01E73840E00A288A7 /* favicon-29.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,11 +593,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L7UBP2M73C;
+				DEVELOPMENT_TEAM = A9EU8AV4Z5;
 				INFOPLIST_FILE = FlatPig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loopta-technologies.FlatPig";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lift.FlatPig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -601,11 +611,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L7UBP2M73C;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A9EU8AV4Z5;
 				INFOPLIST_FILE = FlatPig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loopta-technologies.FlatPig";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lift.FlatPig;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
